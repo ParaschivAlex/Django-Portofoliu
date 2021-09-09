@@ -31,3 +31,5 @@ urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # superuser info for testing --> user: 'asus'      pass: 'django123'
+# pip install pillow
+# pip3 install psycopg2
